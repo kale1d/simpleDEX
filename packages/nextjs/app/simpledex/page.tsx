@@ -39,9 +39,6 @@ const SimpleDEX: NextPage = () => {
 
   return (
     <div className="relative flex flex-col flex-1 px-4 py-2">
-      <div className="flex justify-end">
-        <ConnectButton label="Connect Wallet" />
-      </div>
       <div>
         <p>Reserve A: {reserveA?.toString()}</p>
         <p>Reserve B: {reserveB?.toString()}</p>
